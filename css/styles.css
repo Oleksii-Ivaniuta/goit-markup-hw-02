@@ -1,9 +1,96 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  background-color: #fff;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+a {
+  font-size: 12px;
+  line-height: 1.33333;
+  letter-spacing: 0.04em;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #4d5ae5;
+}
+
+ul {
+  list-style-type: none;
+}
+
 .WebStudio-logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16667;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
+  color: #2e2f42;
+}
+
+.logo-web {
   color: #4d5ae5;
-  font-family: "Raleway", sans-serif;
+}
+
+.page-nav a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.page-nav a:hover {
+  color: #404bbf;
+}
+
+.contacts a {
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+  color: #434455;
+  font-style: normal;
+}
+
+.contacts a:hover {
+  color: #404bbf;
+}
+
+.hero-image {
+  background-color: #2e2f42;
+}
+
+.main-text {
+  text-align: center;
+  color: #fff;
+}
+
+.buton-order-service {
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+  color: #fff;
 }
