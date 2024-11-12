@@ -7,35 +7,6 @@ body {
   background-color: #fff;
 }
 
-h1 {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07143;
-}
-
-h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11111;
-  color: #2e2f42;
-}
-
-h3 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  color: #2e2f42;
-}
-
-a {
-  font-size: 12px;
-  line-height: 1.33333;
-  letter-spacing: 0.04em;
-  text-decoration: underline;
-  text-decoration-skip-ink: none;
-  color: #4d5ae5;
-}
-
 ul {
   list-style-type: none;
 }
@@ -44,18 +15,18 @@ ul {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  color: #2e2f42;
-}
-
-.logo-web {
   color: #4d5ae5;
 }
 
-.page-nav a {
+.logo-studio {
+  color: #2e2f42;
+}
+
+.page-nav {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -64,19 +35,23 @@ ul {
   color: #2e2f42;
 }
 
-.page-nav a:hover {
+.page-nav:hover {
   color: #404bbf;
 }
 
-.contacts a {
+.addr {
+  font-style: normal;
+}
+.contacts {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   font-size: 16px;
   text-decoration: none;
   color: #434455;
-  font-style: normal;
 }
 
-.contacts a:hover,
-.contacts a:focus {
+.contacts:hover,
+.contacts:focus {
   color: #404bbf;
 }
 
@@ -84,9 +59,11 @@ ul {
   background-color: #2e2f42;
 }
 
-.hero-image h1 {
+.main-text {
   text-align: center;
-  color: #fff;
+  font-size: 56px;
+  line-height: 1.07;
+  color: #ffffff;
 }
 
 .button-order-service {
@@ -94,34 +71,56 @@ ul {
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
   color: #fff;
+  line-height: 1.5;
   cursor: pointer;
 }
 
-.button-order-service:hover {
+.button-order-service:hover,
+.button-order-service:focus {
   background-color: #404bbf;
 }
 
 .section-header {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   text-align: center;
+  color: #2e2f42;
+}
+
+.section-1 .section-header {
+  color: transparent;
+}
+
+.value-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.value-descr {
 }
 
 .section-2 {
   background-color: #f4f4fd;
 }
 
-.our-team-block {
+.empl-box {
+  background-color: #ffffff;
   text-align: center;
-  background-color: #fff;
 }
 
 .page-footer {
   background-color: #2e2f42;
 }
 
-.page-footer .webstudio-logo {
+.page-footer span {
   color: #f4f4fd;
 }
 
-.page-footer p {
+.footer-descr {
   color: #f4f4fd;
 }
