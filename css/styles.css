@@ -35,7 +35,8 @@ ul {
   color: #2e2f42;
 }
 
-.page-nav:hover {
+.page-nav:hover,
+.page-nav:focus {
   color: #404bbf;
 }
 
@@ -55,7 +56,7 @@ ul {
   color: #404bbf;
 }
 
-.hero-image {
+.sect-hero-image {
   background-color: #2e2f42;
 }
 
@@ -63,6 +64,7 @@ ul {
   text-align: center;
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: 0.02em;
   color: #ffffff;
 }
 
@@ -89,7 +91,7 @@ ul {
   color: #2e2f42;
 }
 
-.section-1 .section-header {
+.sect-core-features .section-header {
   color: transparent;
 }
 
@@ -104,7 +106,7 @@ ul {
 .value-descr {
 }
 
-.section-2 {
+.sect-employes {
   background-color: #f4f4fd;
 }
 
